@@ -8,7 +8,8 @@ Bazel has also a concept of Package. Folder in which the `BUILD` file is present
 So in current repo, projectA is a package.
 
 ## WORKSPACE
-1. `WORKSPACE` file can be used to bring external dependencies in our project
+1. `WORKSPACE` file can be used to bring external dependencies in our project.
+2. So far we have only used rules python, which is only by bazel. So we haven't imported dependency used by our project.
 
 
 ## SOME RULES
